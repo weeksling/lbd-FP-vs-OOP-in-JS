@@ -1,0 +1,32 @@
+{
+  "name": "fp-vs-oop",
+  "version": "1.0.0",
+  "description": "A sample codebase for Learning By Doing workshop for learning the differences between Functional Programming and Object Oriented Programming in JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js",
+    "test": "mocha test/*.test.js **/*.test.js",
+    "test:watch": "mocha -w test/* **/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weeksling/lbd-FP-vs-OOP-in-JS.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Functional",
+    "Programming",
+    "Object",
+    "Oriented",
+    "Programming",
+    "Javascript",
+    "Tutorial"
+  ],
+  "author": "Matthew Weeks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weeksling/lbd-FP-vs-OOP-in-JS/issues"
+  },
+  "homepage": "https://github.com/weeksling/lbd-FP-vs-OOP-in-JS#readme"
+}
